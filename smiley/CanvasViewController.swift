@@ -18,7 +18,7 @@ class CanvasViewController: UIViewController {
     var trayDown: CGPoint!
     override func viewDidLoad() {
         super.viewDidLoad()
-        trayDownOffset = 270
+        trayDownOffset = 260
         trayUp = trayView.center // The initial position of the tray
         trayDown = CGPoint(x: trayView.center.x ,y: trayView.center.y + trayDownOffset) // The position of the tray transposed down
     }
